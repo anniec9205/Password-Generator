@@ -29,3 +29,5 @@ function generatePassword() {
 
   var special = confirm("Do you want special characters in your password?");
 
+  // this is a minimum count for numbers, lowerCases, upperCases & specialCharacters
+  var minimumCount = 0;
