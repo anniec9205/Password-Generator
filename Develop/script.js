@@ -58,3 +58,29 @@ function generatePassword() {
     }
 
 };
+
+ // Checks to make sure user selected ok for all and uses empty minimums from above
+
+ if (numbers === true) {
+  minimumNumbers = functionArray.getNumbers();
+  minimumCount++;
+
+}
+
+if (lowerCases === true) {
+  minimumLowerCases = functionArray.getLowerCases();
+  minimumCount++;
+
+}
+
+if (upperCases === true) {
+  minimumUpperCases = functionArray.getUpperCases();
+  minimumCount++;
+
+}
+
+if (special === true) {
+  minimumSpecialCharacters = functionArray.getSpecialCharacters();
+  minimumCount++;
+
+}
